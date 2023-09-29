@@ -1,0 +1,195 @@
+body,html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #99ccff;
+    overflow-y: hidden;
+    
+}
+.containerimg{
+    background-image: url(image-1.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 70%;
+    position: absolute;
+    left: 10%;
+    margin: 100px auto;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0;
+    padding: 10px;
+}
+
+
+form {
+    background-image: url('image-1.png');
+    background-repeat: no-repeat;
+    background-color: #99ccff;
+    width: 400px;
+    margin: 7%  auto;
+    background: #ffff;
+    padding: 40px;
+    box-shadow: 1px 4px 20px 0px;
+    border-radius: 8px;
+}
+#spo {
+    width: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    
+}
+
+
+.container button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    background: #5db84a;
+    color: white;
+    border-radius: 4px;
+    
+}
+
+.container input {
+    padding: 10px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+.container label {
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+
+}.forget {
+    margin-top: 10px;
+    text-align: center;
+}
+.container button:hover {
+    transition: 0.3s;
+    background: #3d7e30;
+    border-radius: 4px;
+}
+.container a {
+    font-family: sans-serif;
+    position: relative;
+    top: 10px;
+    color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+        position: relative;
+        top: -60px;
+        background: transparent;
+        box-shadow: 0px 0px 0px 0px;
+    }
+    form label {
+        color: rgb(43, 46, 226);
+    }
+    .containerimg,.containerimg2 {
+        display: none;
+    }
+    body {
+        overflow-y: scroll;
+    }
+
+}
+#logoinpanel {
+    width: 120px;
+    margin: auto;
+}
+#d {
+    padding: 10px;
+}
+.containers{
+    width: 50%;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: auto;
+}
+.containers h1 {
+    text-align: center;
+    color: white;
+}
+.containers p {
+    color: black;
+    font-size: x-large;
+    text-align: center;
+}
+.logo{
+    width: 60px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+/* Container Header place */
+
+.header {
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+.header img {
+  
+}
+
+.header .links .icon{
+    width: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.header .links:hover .icon span:nth-child(2) {
+    width: 100%;
+}
+.header .links .icon span {
+    background-color: #333;
+    margin-bottom: 5px;
+    
+}
+.header .links .icon span:first-child{
+    height: 1px;
+    width: 100%;
+}
+.header .links .icon span:nth-child(2){
+    height: 1px;
+    width: 70%;
+    transition: 0.3s;
+}
+.header .links .icon span:last-child{
+    height: 1px;
+    width: 100%;
+
+}
